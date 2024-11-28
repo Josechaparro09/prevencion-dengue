@@ -602,7 +602,7 @@ def analyze_symptoms(text):
             'Cefalea': [
                 # Términos médicos
                 'cefalea', 'migraña', 'jaqueca', 'dolor craneal','cabeza',
-                # Expresiones coloquiales
+                # 
                 'dolor de cabeza', 'me duele la cabeza', 'tengo la cabeza como un bombo',
                 'siento que me va a estallar la cabeza', 'me está taladrando la cabeza',
                 'me late la cabeza', 'siento pulsaciones en la cabeza',
@@ -620,7 +620,7 @@ def analyze_symptoms(text):
             'Dolor Retroocular': [
                 # Términos médicos
                 'dolor retroocular', 'dolor periorbitario', 'presión intraocular',
-                # Expresiones coloquiales
+                # 
                 'me duelen los ojos', 'siento presión detrás de los ojos',
                 'me duele atrás de los ojos', 'me arden los ojos con dolor',
                 'siento como si me apretaran los ojos', 'me duele al mover los ojos',
@@ -638,7 +638,7 @@ def analyze_symptoms(text):
             'Mialgias': [
                 # Términos médicos
                 'mialgia', 'dolor muscular', 'fatiga muscular',
-                # Expresiones coloquiales
+                # 
                 'me duele todo el cuerpo', 'siento el cuerpo cortado',
                 'tengo molido el cuerpo', 'me duelen todos los músculos',
                 'siento como si me hubieran golpeado', 'estoy todo adolorido', 'tengo el cuerpo destrozado',
@@ -656,7 +656,7 @@ def analyze_symptoms(text):
             'Artralgias': [
                 # Términos médicos
                 'artralgia', 'dolor articular', 'inflamación articular',
-                # Expresiones coloquiales
+                # 
                 'me duelen las articulaciones', 'me duelen las coyunturas',
                 'no puedo doblar las rodillas', 'me duelen los huesos',
                 'me crujen las articulaciones', 'tengo las articulaciones tiesas',
@@ -674,7 +674,7 @@ def analyze_symptoms(text):
             'Erupción/Rash': [
                 # Términos médicos
                 'erupción cutánea', 'rash', 'urticaria', 'dermatitis','manchas',
-                # Expresiones coloquiales
+                # 
                 'tengo sarpullido', 'me salieron manchas', 'tengo la piel irritada',
                 'me salieron ronchas', 'tengo granitos', 'me pica todo el cuerpo',
                 'tengo la piel manchada', 'me salió alergia en la piel',
@@ -691,7 +691,7 @@ def analyze_symptoms(text):
             'Dolor Abdominal': [
                 # Términos médicos
                 'dolor abdominal', 'dolor epigástrico', 'malestar gastrointestinal',
-                # Expresiones coloquiales
+                # 
                 'me duele la panza', 'tengo dolor de estómago', 'me duele la barriga',
                 'tengo retortijones', 'siento punzadas en el estómago',
                 'me duele aquí en la boca del estómago', 'tengo cólicos',
@@ -709,7 +709,7 @@ def analyze_symptoms(text):
             'Vómito': [
                 # Términos médicos
                 'vómito', 'emesis', 'náusea', 'regurgitación',
-                # Expresiones coloquiales
+                # 
                 'estoy vomitando', 'tengo ganas de vomitar', 'no paro de vomitar',
                 'devuelvo todo lo que como', 'me dan náuseas', 'tengo ascos',
                 'siento que voy a vomitar', 'me dan arcadas', 'estoy con náuseas',
@@ -725,7 +725,7 @@ def analyze_symptoms(text):
             'Diarrea': [
                 # Términos médicos
                 'diarrea', 'deposiciones líquidas', 'gastroenteritis','barriga','estomago',
-                # Expresiones coloquiales
+                # 
                 'estoy suelto del estómago', 'tengo el estómago flojo',
                 'voy mucho al baño', 'tengo el intestino suelto',
                 'no puedo dejar de ir al baño', 'tengo colitis',
@@ -743,7 +743,7 @@ def analyze_symptoms(text):
             'Somnolencia': [
                 # Términos médicos
                 'somnolencia', 'fatiga', 'astenia', 'letargo','sueño',
-                # Expresiones coloquiales
+                # 
                 'estoy muy cansado', 'me muero de sueño', 'no tengo energía',
                 'estoy agotado', 'no me puedo mantener despierto',
                 'me siento sin fuerzas', 'estoy que me caigo de sueño',
@@ -761,7 +761,7 @@ def analyze_symptoms(text):
             'Fiebre': [
                 # Términos médicos
                 'fiebre', 'hipertermia', 'pirexia', 'febrícula',
-                # Expresiones coloquiales
+                # 
                 'tengo temperatura', 'estoy afiebrado', 'tengo calentura',
                 'estoy ardiendo', 'me siento caliente', 'tengo el cuerpo caliente',
                 'estoy que ardo', 'tengo escalofríos con fiebre',
@@ -778,7 +778,7 @@ def analyze_symptoms(text):
             'Hipotermia': [
                 # Términos médicos
                 'hipotermia', 'temperatura corporal baja', 'termometría baja',
-                # Expresiones coloquiales
+                # 
                 'estoy helado', 'tengo mucho frío', 'no entro en calor',
                 'siento el cuerpo frío', 'me tiembla todo del frío',
                 'estoy congelado', 'no puedo entrar en calor',
